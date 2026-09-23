@@ -1,32 +1,21 @@
-# benta-potter-campaign-demo
+# Benta + Potter campaign demo
 
-This repository contains a polished static campaign website demo for the Oakland Benta and Merwin Potter ticket in the U.S. Virgin Islands.
+A polished, editorial-style campaign landing page concept for Oakland Benta and Merwin Potter.
 
-## Project structure
+## What changed
 
-- `index.html` – single-page campaign website
-- `styles.css` – custom branding and responsive layout
-- `script.js` – small UI enhancements for mobile navigation and footer year
+- Reframed the experience around a clear service-first campaign narrative.
+- Added a stronger visual identity inspired by Caribbean color, civic trust, and editorial campaign design.
+- Added candidate ticket presentation, public-service timeline, issue priorities, campaign standards, and voter-information flow.
+- Added official-resource links for VIVOTE and the U.S. Election Assistance Commission.
+- Added a persistent demo label and verification notice so unapproved photos, dates, claims, and final legal copy are not presented as official.
 
-## Purpose
+## Important content note
 
-The site is designed as a persuasive campaign landing page for a demo presentation, highlighting:
+The biographies and campaign themes are based on publicly available reporting and the VIIQ candidate profile. The campaign should approve all biography language, policy commitments, dates, contact details, photos, endorsements, and disclaimer language before launch.
 
-- the candidates' leadership profile
-- their campaign platform and manifesto themes
-- public service background and community impact
-- a premium, modern electoral brand aesthetic
-
-## Notes
-
-The content is based on publicly available campaign information and service background available at the time of creation. Official campaign images, statements, and donor data should be added later if required for a final production version.
-
-## View locally
-
-Open `index.html` in a browser, or run a simple local HTTP server such as:
+Open `index.html` directly or run:
 
 ```bash
 python3 -m http.server 8000
 ```
-
-Then visit `http://localhost:8000`.
