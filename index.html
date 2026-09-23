@@ -3,43 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Oakland Benta and Merwin Potter campaign website demo for the U.S. Virgin Islands."
-    />
-    <title>Oakland Benta & Merwin Potter | For a Stronger Virgin Islands</title>
+    <meta name="description" content="Oakland Benta and Merwin Potter campaign website demo for the U.S. Virgin Islands." />
+    <title>Oakland Benta & Merwin Potter | Service. Safety. Opportunity.</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      .proof-grid,.vote-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.3rem}.proof-card,.vote-card{background:rgba(17,32,43,.74);border:1px solid var(--line);border-radius:22px;padding:1.5rem}.proof-card h3,.vote-card h3{margin:.2rem 0 .65rem;font-size:1.25rem}.proof-card p,.vote-card p{margin:0;color:var(--muted)}.proof-label{color:var(--primary);font-size:.75rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.vote-section{background:linear-gradient(135deg,rgba(116,217,255,.08),rgba(245,185,62,.08));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.vote-note{margin-top:1.5rem;color:var(--muted);font-size:.9rem}.source-link{color:var(--secondary);text-decoration:underline;text-underline-offset:3px}.trust-row{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.2rem}.trust-chip{border:1px solid var(--line);border-radius:999px;padding:.45rem .75rem;color:var(--muted);font-size:.85rem}.step-number{width:42px;height:42px;display:grid;place-items:center;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--primary-strong));color:#12202a;font-weight:800}.demo-label{position:fixed;bottom:1rem;right:1rem;z-index:30;background:#102c3f;color:var(--secondary);border:1px solid rgba(116,217,255,.3);padding:.5rem .75rem;border-radius:999px;font-size:.72rem;font-weight:700}@media(max-width:860px){.proof-grid,.vote-grid{grid-template-columns:1fr}}
+    </style>
   </head>
   <body>
+    <div class="demo-label">DEMO CONCEPT • VERIFY OFFICIAL DETAILS</div>
     <header class="site-header">
       <div class="container nav-wrap">
-        <div class="brand">
-          <div class="brand-mark">OB</div>
-          <div>
-            <span class="brand-name">Oakland Benta</span>
-            <small>& Merwin Potter</small>
-          </div>
-        </div>
-
+        <div class="brand"><div class="brand-mark">OB</div><div><span class="brand-name">Oakland Benta</span><small>& Merwin Potter</small></div></div>
         <nav class="nav" aria-label="Main navigation">
-          <a href="#about">About</a>
-          <a href="#platform">Platform</a>
-          <a href="#manifesto">Manifesto</a>
-          <a href="#impact">Impact</a>
-          <a href="#join">Join</a>
+          <a href="#about">About</a><a href="#platform">Platform</a><a href="#manifesto">Vision</a><a href="#why-us">Why this ticket</a><a href="#vote">How to vote</a>
         </nav>
-
-        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
       </div>
     </header>
 
@@ -49,241 +31,34 @@
           <div class="hero-copy">
             <p class="eyebrow">A stronger future for the U.S. Virgin Islands</p>
             <h1>Leadership rooted in service, safety, and opportunity.</h1>
-            <p class="intro">
-              Oakland Benta and Merwin Potter bring a people-first vision centered on
-              healthcare access, economic diversification, public safety, and accountable
-              leadership for every community across the territory.
-            </p>
-
-            <div class="cta-row">
-              <a href="#manifesto" class="btn btn-primary">Read the vision</a>
-              <a href="#join" class="btn btn-secondary">Get involved</a>
-            </div>
-
-            <ul class="hero-points" aria-label="Key campaign priorities">
-              <li>Healthcare access and community resilience</li>
-              <li>Economic growth and investor confidence</li>
-              <li>Stronger public safety and accountability</li>
-            </ul>
+            <p class="intro">Oakland Benta and Merwin Potter offer a people-first vision centered on healthcare access, economic diversification, public safety, and accountable leadership for every community across the territory.</p>
+            <div class="cta-row"><a href="#why-us" class="btn btn-primary">See the case for this ticket</a><a href="#vote" class="btn btn-secondary">Learn how to vote</a></div>
+            <ul class="hero-points" aria-label="Key campaign priorities"><li>Healthcare access and resilience</li><li>Economic growth at home</li><li>Safety and accountable leadership</li></ul>
           </div>
-
           <div class="hero-visual" aria-label="Candidate portrait concepts">
-            <div class="portrait-card portrait-one">
-              <div class="portrait-badge">Oakland Benta</div>
-              <div class="portrait-caption">Leadership • Governance • Public Service</div>
-            </div>
-            <div class="portrait-card portrait-two">
-              <div class="portrait-badge">Merwin Potter</div>
-              <div class="portrait-caption">Preparedness • Safety • Community Care</div>
-            </div>
+            <div class="portrait-card portrait-one"><div class="portrait-badge">Oakland Benta</div><div class="portrait-caption">Leadership • Governance • Public Service</div></div>
+            <div class="portrait-card portrait-two"><div class="portrait-badge">Merwin Potter</div><div class="portrait-caption">Preparedness • Safety • Community Care</div></div>
           </div>
         </div>
       </section>
 
-      <section class="stats-band">
-        <div class="container stats-grid">
-          <div>
-            <strong>Public Service</strong>
-            <span>Law enforcement and emergency leadership experience</span>
-          </div>
-          <div>
-            <strong>Healthcare</strong>
-            <span>Focused on medical infrastructure and access</span>
-          </div>
-          <div>
-            <strong>Economic Growth</strong>
-            <span>Diversifying opportunity and attracting investment</span>
-          </div>
-          <div>
-            <strong>Accountability</strong>
-            <span>Put people before politics</span>
-          </div>
-        </div>
-      </section>
+      <section class="stats-band"><div class="container stats-grid"><div><strong>Public Service</strong><span>Law enforcement and emergency leadership experience</span></div><div><strong>Healthcare</strong><span>Focused on medical infrastructure and access</span></div><div><strong>Economic Growth</strong><span>Diversifying opportunity and attracting investment</span></div><div><strong>Accountability</strong><span>Put people before politics</span></div></div></section>
 
-      <section id="about" class="section">
-        <div class="container split">
-          <div>
-            <p class="section-kicker">About the ticket</p>
-            <h2>Experienced leaders with roots in the territory.</h2>
-          </div>
-          <div>
-            <p>
-              Oakland Benta is a former senator and former St. Croix Police Chief, while
-              Merwin Potter is a former Fire Service Director. Together, they represent
-              public safety leadership, service-oriented governance, and a practical
-              understanding of the everyday challenges facing families and communities
-              across the U.S. Virgin Islands.
-            </p>
-            <p>
-              Their campaign centers on a simple but powerful promise: build a more
-              resilient territory by investing in people, restoring trust, and creating
-              opportunities that reflect the strength of the Virgin Islands community.
-            </p>
-          </div>
-        </div>
-      </section>
+      <section id="about" class="section"><div class="container split"><div><p class="section-kicker">About the ticket</p><h2>Experienced leaders with roots in the territory.</h2></div><div><p>Oakland Benta is a former senator and former St. Croix Police Chief, while Merwin Potter is a former Fire Service Director. Together, they bring public-safety leadership, service-oriented governance, and practical knowledge of the challenges facing families and communities across the U.S. Virgin Islands.</p><p>The campaign’s promise is straightforward: invest in people, restore trust, and create opportunity while making the territory safer and more resilient.</p><div class="trust-row"><span class="trust-chip">Service-led</span><span class="trust-chip">Independent</span><span class="trust-chip">Territory-focused</span></div></div></div></section>
 
-      <section id="platform" class="section alt">
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-kicker">Campaign platform</p>
-            <h2>What they are campaigning on</h2>
-          </div>
+      <section id="platform" class="section alt"><div class="container"><div class="section-heading"><p class="section-kicker">Campaign platform</p><h2>Issues that matter to everyday families.</h2></div><div class="card-grid three-col"><article class="info-card"><div class="icon">01</div><h3>Healthcare First</h3><p>Prioritizing healthcare infrastructure, hospital stability, worker support, and dependable access to care.</p></article><article class="info-card"><div class="icon">02</div><h3>Economic Diversification</h3><p>Encouraging investment, expanding local industry, and building an economic base that creates opportunity.</p></article><article class="info-card"><div class="icon">03</div><h3>Public Safety & Order</h3><p>Advancing practical, law-enforcement-centered solutions that put safety, accountability, and community protection first.</p></article></div></div></section>
 
-          <div class="card-grid three-col">
-            <article class="info-card">
-              <div class="icon">01</div>
-              <h3>Healthcare First</h3>
-              <p>
-                Prioritizing healthcare infrastructure, hospital stability, worker support,
-                and dependable access to care for families across the territory.
-              </p>
-            </article>
+      <section id="why-us" class="section"><div class="container"><div class="section-heading"><p class="section-kicker">Why supporters may choose this ticket</p><h2>A credible partnership built for the work ahead.</h2><p class="intro">The strongest case for Benta–Potter is the combination of legislative perspective, public-safety experience, emergency leadership, and a clear focus on local priorities.</p></div><div class="proof-grid"><article class="proof-card"><span class="proof-label">01 / Experience</span><h3>Leadership that understands service</h3><p>Benta’s policing and legislative background and Potter’s fire-service leadership connect policy to the realities faced by residents.</p></article><article class="proof-card"><span class="proof-label">02 / Priorities</span><h3>A practical agenda</h3><p>The platform focuses on visible needs: reliable healthcare, a broader economy, safer communities, and transparent government.</p></article><article class="proof-card"><span class="proof-label">03 / Partnership</span><h3>One team, complementary strengths</h3><p>The ticket pairs governance and public-safety experience with preparedness and operational knowledge.</p></article></div></div></section>
 
-            <article class="info-card">
-              <div class="icon">02</div>
-              <h3>Economic Diversification</h3>
-              <p>
-                Encouraging investment, expanding local industry, and building a stronger
-                economic base that gives residents more opportunities and security.
-              </p>
-            </article>
+      <section id="manifesto" class="section alt"><div class="container manifesto-wrap"><div class="section-heading left"><p class="section-kicker">Campaign vision</p><h2>A vision for a stronger Virgin Islands.</h2></div><div class="manifesto-list"><div class="manifesto-item"><span class="index">1</span><div><h3>Restore confidence in leadership</h3><p>Strengthen accountability, make transparent decisions, and rebuild trust in government operations.</p></div></div><div class="manifesto-item"><span class="index">2</span><div><h3>Protect the well-being of families</h3><p>Expand access to healthcare, support essential workers, and improve emergency and medical capacity.</p></div></div><div class="manifesto-item"><span class="index">3</span><div><h3>Grow opportunity at home</h3><p>Attract investment, increase local industry, and create pathways for workers and business owners to thrive.</p></div></div><div class="manifesto-item"><span class="index">4</span><div><h3>Build safer communities</h3><p>Strengthen collaboration between agencies and deliver practical public-safety solutions.</p></div></div><div class="manifesto-item"><span class="index">5</span><div><h3>Lead with service</h3><p>Root every policy decision in the lived realities and long-term betterment of residents.</p></div></div></div></div></section>
 
-            <article class="info-card">
-              <div class="icon">03</div>
-              <h3>Public Safety & Order</h3>
-              <p>
-                Advancing practical, law-enforcement-centered solutions that put safety,
-                accountability, and community protection at the center of public policy.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
+      <section id="impact" class="section"><div class="container"><div class="section-heading"><p class="section-kicker">Community impact</p><h2>Leadership built on public service.</h2></div><div class="timeline"><div class="timeline-item"><span class="date">Public service</span><h3>Law enforcement leadership</h3><p>Oakland Benta’s public-safety background reflects an understanding of the territory’s security challenges and community needs.</p></div><div class="timeline-item"><span class="date">Governance</span><h3>Senate leadership</h3><p>As a former senator, Benta brings legislative experience and a policy mindset shaped by local priorities.</p></div><div class="timeline-item"><span class="date">Emergency response</span><h3>Fire service leadership</h3><p>Merwin Potter’s emergency-response experience adds operational knowledge on resilience and preparedness.</p></div></div></div></section>
 
-      <section id="manifesto" class="section">
-        <div class="container manifesto-wrap">
-          <div class="section-heading left">
-            <p class="section-kicker">Campaign manifesto</p>
-            <h2>A vision for a stronger Virgin Islands.</h2>
-          </div>
+      <section id="vote" class="section vote-section"><div class="container"><div class="section-heading"><p class="section-kicker">Your vote matters</p><h2>How to support the Benta–Potter ticket at the ballot box.</h2><p class="intro">Voting information can change. Use this as a clear campaign education flow, then confirm dates, eligibility, registration, and polling details with the official Elections System of the Virgin Islands.</p></div><div class="vote-grid"><article class="vote-card"><div class="step-number">1</div><h3>Make sure you’re registered</h3><p>Check your registration and eligibility through the official VIVOTE voter resources before the deadline.</p><p class="vote-note"><a class="source-link" href="https://vivote.gov/" target="_blank" rel="noopener">Visit VIVOTE →</a></p></article><article class="vote-card"><div class="step-number">2</div><h3>Choose your voting method</h3><p>Review official information about early voting, Election Day voting locations, and absentee voting if eligible.</p><p class="vote-note"><a class="source-link" href="https://vivote.gov/?elections=2026-general-election" target="_blank" rel="noopener">View election information →</a></p></article><article class="vote-card"><div class="step-number">3</div><h3>Vote for the full ticket</h3><p>When you receive your ballot, follow the official instructions and select Oakland Benta for Governor and Merwin Potter for Lieutenant Governor, if that is your choice.</p><p class="vote-note"><a class="source-link" href="https://www.eac.gov/virgin-islands-voter-info" target="_blank" rel="noopener">Confirm voter information →</a></p></article></div><p class="vote-note">This demo does not replace official election guidance. Election dates, deadlines, polling places, and ballot instructions should be verified at <a class="source-link" href="https://vivote.gov/" target="_blank" rel="noopener">vivote.gov</a> before publication.</p></div></section>
 
-          <div class="manifesto-list">
-            <div class="manifesto-item">
-              <span class="index">1</span>
-              <div>
-                <h3>Restore confidence in leadership</h3>
-                <p>
-                  Put the people first by strengthening accountability, making transparent
-                  decisions, and rebuilding trust in Government operations.
-                </p>
-              </div>
-            </div>
-
-            <div class="manifesto-item">
-              <span class="index">2</span>
-              <div>
-                <h3>Protect the well-being of families</h3>
-                <p>
-                  Expand access to healthcare, support essential workers, and ensure the
-                  territory has the emergency and medical capacity needed for long-term care.
-                </p>
-              </div>
-            </div>
-
-            <div class="manifesto-item">
-              <span class="index">3</span>
-              <div>
-                <h3>Grow opportunity at home</h3>
-                <p>
-                  Attract investment, increase industrial and entrepreneurial activity, and
-                  create pathways for local workers and business owners to thrive.
-                </p>
-              </div>
-            </div>
-
-            <div class="manifesto-item">
-              <span class="index">4</span>
-              <div>
-                <h3>Build safer communities</h3>
-                <p>
-                  Strengthen collaboration between agencies, deliver practical public safety
-                  solutions, and ensure residents feel secure in their neighborhoods.
-                </p>
-              </div>
-            </div>
-
-            <div class="manifesto-item">
-              <span class="index">5</span>
-              <div>
-                <h3>Lead with service</h3>
-                <p>
-                  Root every policy decision in the lived realities of residents and the
-                  long-term betterment of the territory.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="impact" class="section alt">
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-kicker">Community impact</p>
-            <h2>Leadership built on public service.</h2>
-          </div>
-
-          <div class="timeline">
-            <div class="timeline-item">
-              <span class="date">Public service</span>
-              <h3>Law enforcement leadership</h3>
-              <p>
-                Oakland Benta’s background in public safety and policing reflects a strong
-                understanding of the territory’s security challenges and community needs.
-              </p>
-            </div>
-
-            <div class="timeline-item">
-              <span class="date">Governance</span>
-              <h3>Senate leadership</h3>
-              <p>
-                As a former senator, Benta brings legislative experience and a policy mindset
-                shaped by the realities of local government and community priorities.
-              </p>
-            </div>
-
-            <div class="timeline-item">
-              <span class="date">Emergency response</span>
-              <h3>Fire service leadership</h3>
-              <p>
-                Merwin Potter’s emergency-response experience adds operational knowledge and
-                a practical perspective on resilience, preparedness, and public trust.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="join" class="section cta-section">
-        <div class="container cta-box">
-          <div>
-            <p class="section-kicker">Join the movement</p>
-            <h2>Build a better future for every Virgin Islands family.</h2>
-          </div>
-          <a href="mailto:hello@benta-potter-demo.com" class="btn btn-primary">Support the vision</a>
-        </div>
-      </section>
+      <section id="join" class="section cta-section"><div class="container cta-box"><div><p class="section-kicker">Join the movement</p><h2>Help take a service-first vision to every community.</h2></div><a href="mailto:hello@benta-potter-demo.com" class="btn btn-primary">Connect with the campaign</a></div></section>
     </main>
-
-    <footer class="site-footer">
-      <div class="container footer-wrap">
-        <p>Paid for by the Oakland Benta & Merwin Potter campaign demo.</p>
-        <p>© <span id="year"></span> All rights reserved.</p>
-      </div>
-    </footer>
-
+    <footer class="site-footer"><div class="container footer-wrap"><p>Paid for by the Oakland Benta & Merwin Potter campaign demo.</p><p>© <span id="year"></span> All rights reserved.</p></div></footer>
     <script src="script.js"></script>
   </body>
 </html>
